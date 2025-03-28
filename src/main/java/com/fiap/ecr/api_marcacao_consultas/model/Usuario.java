@@ -12,4 +12,13 @@ public class Usuario {
     private String email;
     private String senha;
     private String tipo; // Paciente, Médico ou Admin
+
+    public String getEmail() {
+        return email;
+    }
+
+
+    public void setSenha(String encode) {
+        senha = encode;
+    }
 }

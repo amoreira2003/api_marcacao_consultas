@@ -9,4 +9,8 @@ public class Especialidade {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String nome;
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
 }
